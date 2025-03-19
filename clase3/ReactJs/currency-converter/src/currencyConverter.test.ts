@@ -55,6 +55,7 @@ describe("Pruebas de la función convertirMoneda", () => {
     (global.fetch as jest.Mock).mockImplementationOnce(() =>
       Promise.resolve({
         ok: false,
+
       })
     );
 
